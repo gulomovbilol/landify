@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700;800&display=swap');
+
+*,
+*::before,
+*::after{
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Manrope', sans-serif;
+	font-size: 14px;
+	color: #18191F;
+}
+
+a {
+	text-decoration: none;
+	display: inline-block;
+}
+
+ol,
+ul,
+li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+}
+
+.container {
+	max-width: 1110px;
+	margin: 0 auto;
+	padding-left: 0.75rem;
+	padding-right: 0.75rem;
+}
+
+/* HEADER START */
+.header {
+	box-shadow: 0px 1px 0px #E5E9F2;
+}
+
+.header .container {
+	display: flex;
+	align-items: center;
+	padding-top: 16px;
+	padding-bottom: 16px;
+}
+
+.header__logo {
+	margin-right: 32px;
+}
+
+.nav__list {
+	display: flex;
+	align-items: center;
+	gap: 32px;
+}
+
+.nav__link {
+	color: inherit;
+	font-weight: 700;
+	line-height: calc(20 / 14 * 100%);
+}
+
+.nav__link:hover {
+	color: #fafafa;
+	transition: 0.3s ease-in;
+	background: #18191F;
+	border: 1px solid #fff;
+	padding: 5px;
+	border-radius: 10px;
+}
+
+.header__actions {
+	margin-left: auto;
+}
+
+.actions {
+	display: flex;
+	align-items: center;
+	column-gap: 12px;
+}
+
+.action__cta {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/* HEADER END */
+
+/* MAIN START */
+
+.mockup {
+	padding: 167px 0;
+}
+
+.mockup__block {
+	display: flex;
+	align-items: center;
+}
+
+.mockup__title {
+	font-size: 72px;
+	font-weight: 800;
+	line-height: calc(98 / 72 * 100%);
+	margin-bottom: 16px;
+}
+
+.mockup__subtitle {
+	font-size: 18px;
+	line-height: calc(32 / 18 * 100%);
+}
+
+.mockup__info,
+.mockup__image {
+	flex: 0 0 50%;
+	width: 50%;
+}
+
+.mockup__img {
+	display: block;
+	max-width: 100%;
+	object-fit: cover;
+}
+
+.mockup__button {
+	background: #8C30F5;
+	border-radius: 20px;
+	padding: 16px 35px;
+	color: #fff;
+	font-size: 20px;
+	line-height: calc(30 / 20 * 100%);
+}
+
+.mockup__button:hover {
+	background: #fafafa;
+	color: #8C30F5;
+	border: 1px solid #8C30F5;
+	border-radius: 20px
+}
+
+/* MAIN END */
+
+
+/* FOOTER START */
+.footer {
+	padding: 19px 0;
+	background: #0B0D17;
+	color: #fff;
+}
+
+.footer .container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.footer__socials {
+	display: flex;
+	align-items: center;
+	column-gap: 16px;
+}
+
+.footer__social {
+	width: 34px;
+	height: 34px;
+	background-color: #23252E;
+	border-radius: 50%;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/* FOOTER END */
